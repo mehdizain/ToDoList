@@ -1,0 +1,100 @@
+*
+{
+    margin:0;
+    padding:0;
+    background-color: cornflowerblue;
+}
+.container
+{
+    height:100vh;
+    width: 100%;
+    background-color: cornflowerblue;
+    padding:40px 411px 40px 411px;
+}
+.box
+{
+    text-align: center;
+    justify-content: center;
+    padding:20px 0px 20px 0px;
+    margin:20px;
+    border:2px solid white;
+    border-radius: 50px;
+    background-color: white;
+    overflow:hidden;
+    width:500px;
+    height:500px;
+}
+h1
+{
+    color:white;
+    background-color: purple;
+    width:100%;
+}
+input
+{
+    background-color: white;
+    color:black;
+    text-align: center;
+    border:0px hidden black;
+    padding:30px 70px 10px 70px;
+    justify-content: center;
+}
+input:focus
+{
+    outline: none;
+    border:none;
+}
+hr
+{
+    color:purple;
+    width:50%;
+    justify-content: center;
+    background-color: white;
+    margin-left:120px ;
+}
+#addBtn
+{
+    background-color: purple;
+    height:40px;
+    width:40px;
+    color:white;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 500px;
+}
+#addBtn:hover
+{
+    background-color: green;
+}
+.list
+{
+    background-color: white;
+}
+ol
+{
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    list-style-type:disc;
+}
+li
+{
+    background-color: white;
+    padding:10px;
+    color:blueviolet;
+    font-size: larger;
+}
+#delBtn
+{
+    width:30px;
+    height:30px;
+    display:inline-block;
+    border-radius: 50px;
+    background-color:darkslategrey;
+    color:white;
+    font-size: larger;
+}
+#delBtn:hover
+{
+    background-color: red;
+}
